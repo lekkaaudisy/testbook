@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 const db =
-  "mongodb+srv://lekkaaudisy:lekkaaudisy@cluster0.0ifpkus.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://lekkaaudisy:password@cluster0.0ifpkus.mongodb.net/?retryWrites=true&w=majority";
 /* Replace <password> with your database password */
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
